@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/autor.css" type="text/css"  rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="principal">
+            <a href="principal.html"><img id="prin" src="Imagenes/lib.jpg"/></a>
+        </div>
+        <div class="opciones">
+            <a href="addAutor.html"><img id="men" src="Imagenes/anadir.png" alt = ""/></a>
+            <a href="addLib.html"><img id="men1" src="Imagenes/addLibro.png" alt = ""/></a>
+            <a href="listarLib.php"><img id="men2" src="Imagenes/listar.png" /></a>
+        </div>
+    </header>
+       <br>
+    
+
+    <form id="formulario01" method="POST" action="../controlador/addAutor.php">
+        <label for="nombreAut">Nombre Autor (*)</label>
+        <br>
+        <input type="text" id="nombreAut" name="nombreAut" value="" placeholder="Ingrese el nombre del Autor"/>
+        <br>
+
+        <label for="nacAut">Nacionalidad Autor (*)</label>
+        <br>
+        <input type="text" id="nacAut" name="nacAut" value="" placeholder="Ingrese la Nacionalidad "/>
+        <br>
+
+        <button type="submit" id="crear" name="crear" value="Aceptar">Aceptar </button>
+        <button type="reset" id="cancelar" name="cancelar" value="Cancelar">Cancelar </button>
+        <!--<input type="submit" id="crear" name="crear" value="Aceptar" />
+        <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />-->
+    </form>
+</body>
+</html>

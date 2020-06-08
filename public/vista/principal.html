@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Libreria</title>
+    <script  type="text/javascript" src="buscador.js"></script>
+    <link href="CSS/principal.css" type="text/css"  rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="principal">
+            <a href="principal.html"><img id="prin" src="Imagenes/lib.jpg"/></a>
+        </div>
+        <div class="opciones">
+            <a href="addAutor.html"><img id="men" src="Imagenes/anadir.png" alt = ""/></a>
+            <a href="addLib.html"><img id="men1" src="Imagenes/addLibro.png" alt = ""/></a>
+            <a href="listarLib.php"><img id="men2" src="Imagenes/listar.png" /></a>
+        </div>
+    </header>
+    
+    <section>
+        <h1>Buscas Algun Autor?</h1>
+        <input  type="text" id="buscar" name="buscar" size="40"  placeholder="Codigo del Autor"/> 
+        <input type="submit" id="crear" name="crear" onclick="busquedaAutor()" value="Aceptar">
+        <div id="informacion">
+            <h3>No se ah Buscado Nada..</h3>
+        </div>
+    </section>
+    
+
+</body>
+</html>

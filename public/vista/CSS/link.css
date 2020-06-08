@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Italic'), local('Raleway-Italic'), url(https://fonts.gstatic.com/s/raleway/v11/IIm-lPOtfVKQy0GMiczF_1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+   
+}
+* {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body{
+    background-color: #080429;
+}
+
+section {
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 450px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: white solid 3px;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: #080429;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+a{
+    margin-top: 10%;
+    margin-left: 40%;
+    border: #080429 3px solid;
+    padding: 10px;
+    color: #080429;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: white;
+    background-color: #080429;
+}
+

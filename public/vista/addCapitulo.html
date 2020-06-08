@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/autor.css" type="text/css"  rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="principal">
+            <a href="principal.html"><img id="prin" src="Imagenes/lib.jpg"/></a>
+        </div>
+        <div class="opciones">
+            <a href="addAutor.html"><img id="men" src="Imagenes/anadir.png" alt = ""/></a>
+            <a href="addLib.html"><img id="men1" src="Imagenes/addLibro.png" alt = ""/></a>
+            <a href="listarLib.php"><img id="men2" src="Imagenes/listar.png" /></a>
+        </div>
+    </header>
+       <br>
+    
+
+    <form id="formulario01" method="POST" action="../controlador/addCapitulo.php">
+        <label for="ncaputilos">Numero Capitulo (*)</label>
+        <br>
+        <input type="text" id="ncaputilos" name="ncaputilos" value="" placeholder="Ingrese numero de capitulo" />
+        <br> 
+
+        <label for="tcapitulos">Titulo Capitulo (*)</label>
+        <br>
+        <input type="text" id="tcapitulos" name="tcapitulos" value="" placeholder="Ingrese titulo del capitulo" />
+        <br>
+        <label for="codAutor">Id Autor (*)</label>
+        <br>
+        <input type="text" id="codAutor" name="codAutor" value="" placeholder="Ingrese codigo del Autor" />
+        <br>
+
+        <button type="submit" id="crear" name="crear" value="Aceptar">Aceptar </button>
+        <button type="reset" id="cancelar" name="cancelar" value="Cancelar">Cancelar </button>
+    </form>
+</body>
+</html>

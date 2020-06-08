@@ -1,0 +1,92 @@
+body{
+    background-color: coral;
+}
+header {
+    width: 98%; 
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 10px;
+}
+.principal {
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+}
+.principal #prin{
+    float: left;
+    width: 800px;
+    height: 200px;
+    border-radius: 30px;
+}
+.opciones {
+    margin-top: 20px;
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    float: right;
+    width: 30%;
+}
+#men{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 60px;
+    height: 55px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men1{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men2{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+section{ float: left;
+width: 100%;
+}
+section h1{
+    width: 100%;
+    color: coral;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+section #buscar{
+    margin-left: 10%;
+    padding: 10px;
+    border: white;
+}
+section #crear{
+    margin-left: 20px;
+    padding: 10px;
+    width: 100px;
+}
+#informacion {
+    margin-left: 15%;
+}
+
+

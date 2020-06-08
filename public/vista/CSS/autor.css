@@ -1,0 +1,110 @@
+body{
+    background-color: coral;
+}
+header {
+    width: 98%; 
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 10px;
+}
+.principal {
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+}
+.principal #prin{
+    float: left;
+    width: 800px;
+    height: 200px;
+    border-radius: 30px;
+}
+.opciones {
+    margin-top: 20px;
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    float: right;
+    width: 30%;
+}
+#men{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 60px;
+    height: 55px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men1{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men2{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+#formulario01 {
+    width: 25%;
+    top:50px;
+    display: block;
+    left: 35%;
+    position: relative;
+    background-color: thistle;
+    border-radius: 30px;
+    text-align: left;
+    padding: 30px;
+    border: 3px solid white;
+}
+
+#formulario01 label  {
+    color :chocolate;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#formulario01 input {
+    color : white;
+    background-color:coral;
+    /*border:none;*/
+    padding:10px;
+    margin: 10px;
+    width: 90%;
+    font-size: 13px;
+}
+
+#formulario01 #cancelar{
+    background-color: chocolate;
+    color:white;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+}
+#formulario01 #crear{
+    background-color: chocolate;
+    color:white;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+}

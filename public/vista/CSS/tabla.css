@@ -1,0 +1,24 @@
+
+ table {
+    margin-top: 20px;
+    float: none;
+    width: 100%;
+    border: 2px solid white;
+}
+table th {
+    padding: 0.9em;
+    color: white;
+    background: #393939;
+    border: 2px solid #393939;
+    font-size: 18px;
+ }
+table tr {
+    color: #a3a3a3;
+    background: #222222;
+    border: 2px solid #393939;
+    
+}
+
+table td {
+    padding: 0.8em;
+}
